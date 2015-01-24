@@ -1,19 +1,19 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0-beta2",
   "description": "ASP.NET 5 HTTP feature interface definitions.",
   "frameworks": {
     "aspnet50": {},
     "aspnetcore50": {
       "dependencies": {
-        "Microsoft.Net.WebSocketAbstractions": "1.0.0-*",
-        "System.IO": "4.0.10-beta-*",
-        "System.Net.Primitives": "4.0.10-beta-*",
-        "System.Runtime": "4.0.20-beta-*",
-        "System.Runtime.InteropServices": "4.0.20-beta-*",
-        "System.Security.Claims": "4.0.0-beta-*",
-        "System.Security.Cryptography.X509Certificates": "4.0.0-beta-*",
-        "System.Security.Principal": "4.0.0-beta-*",
-        "System.Threading.Tasks": "4.0.10-beta-*"
+        "Microsoft.Net.WebSocketAbstractions": "1.0.0-beta2",
+        "System.IO": "4.0.10-beta-22416",
+        "System.Net.Primitives": "4.0.10-beta-22416",
+        "System.Runtime": "4.0.20-beta-22416",
+        "System.Runtime.InteropServices": "4.0.20-beta-22416",
+        "System.Security.Claims": "4.0.0-beta-22416",
+        "System.Security.Cryptography.X509Certificates": "4.0.0-beta-22416",
+        "System.Security.Principal": "4.0.0-beta-22416",
+        "System.Threading.Tasks": "4.0.10-beta-22416"
       }
     }
   }

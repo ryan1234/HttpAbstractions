@@ -1,17 +1,17 @@
 {
-    "version": "1.0.0-*",
+    "version": "1.0.0-beta2",
     "description": "ASP.NET 5 common extension methods for HTTP abstractions and IApplicationBuilder.",
     "dependencies": {
-        "Microsoft.AspNet.Http": "1.0.0-*",
-        "Microsoft.Framework.DependencyInjection": "1.0.0-*"
+        "Microsoft.AspNet.Http": "1.0.0-beta2",
+        "Microsoft.Framework.DependencyInjection": "1.0.0-beta2"
     },
     "frameworks" : {
         "aspnet50" : {
         },
         "aspnetcore50" : { 
             "dependencies": {
-                "System.Reflection.TypeExtensions": "4.0.0-beta-*",
-                "System.Runtime": "4.0.20-beta-*"
+                "System.Reflection.TypeExtensions": "4.0.0-beta-22416",
+                "System.Runtime": "4.0.20-beta-22416"
             }
         }
     }
