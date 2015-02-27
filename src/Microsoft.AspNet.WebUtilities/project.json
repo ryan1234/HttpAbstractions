@@ -1,19 +1,18 @@
 {
-    "version": "1.0.0-*",
-    "description": "ASP.NET 5 common helper methods such as URL encoding.",
-    "dependencies": {
-    },
-    "frameworks": {
-        "aspnet50": { },
-        "aspnetcore50": {
-            "dependencies": {
-                "System.Collections": "4.0.10-beta-*",
-                "System.Diagnostics.Debug": "4.0.10-beta-*",
-                "System.IO": "4.0.10-beta-*",
-                "System.IO.FileSystem": "4.0.0-beta-*",
-                "System.Runtime": "4.0.20-beta-*",
-                "System.Runtime.Extensions": "4.0.10-beta-*"
-            }
-        }
+  "version": "1.0.0-beta3",
+  "description": "ASP.NET 5 common helper methods such as URL encoding.",
+  "dependencies": {},
+  "frameworks": {
+    "aspnet50": {},
+    "aspnetcore50": {
+      "dependencies": {
+        "System.Collections": "4.0.10-beta-22605",
+        "System.Diagnostics.Debug": "4.0.10-beta-22605",
+        "System.IO": "4.0.10-beta-22605",
+        "System.IO.FileSystem": "4.0.0-beta-22605",
+        "System.Runtime": "4.0.20-beta-22605",
+        "System.Runtime.Extensions": "4.0.10-beta-22605"
+      }
     }
+  }
 }

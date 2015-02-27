@@ -1,25 +1,25 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0-beta3",
   "description": "ASP.NET 5 HTTP object model. HttpContext and family.",
   "dependencies": {},
   "frameworks": {
     "aspnet50": {},
     "aspnetcore50": {
       "dependencies": {
-        "Microsoft.Net.WebSocketAbstractions": "1.0.0-*",
-        "System.Collections": "4.0.10-beta-*",
-        "System.ComponentModel": "4.0.0-beta-*",
-        "System.Diagnostics.Tools": "4.0.0-beta-*",
-        "System.Globalization": "4.0.10-beta-*",
-        "System.Globalization.Extensions": "4.0.0-beta-*",
-        "System.IO": "4.0.10-beta-*",
-        "System.Linq": "4.0.0-beta-*",
-        "System.Runtime": "4.0.20-beta-*",
-        "System.Runtime.Extensions": "4.0.10-beta-*",
-        "System.Runtime.InteropServices": "4.0.20-beta-*",
-        "System.Security.Claims": "4.0.0-beta-*",
-        "System.Security.Principal" : "4.0.0-beta-*",
-        "System.Threading.Tasks": "4.0.10-beta-*"
+        "Microsoft.Net.WebSocketAbstractions": "1.0.0-beta3",
+        "System.Collections": "4.0.10-beta-22605",
+        "System.ComponentModel": "4.0.0-beta-22605",
+        "System.Diagnostics.Tools": "4.0.0-beta-22605",
+        "System.Globalization": "4.0.10-beta-22605",
+        "System.Globalization.Extensions": "4.0.0-beta-22605",
+        "System.IO": "4.0.10-beta-22605",
+        "System.Linq": "4.0.0-beta-22605",
+        "System.Runtime": "4.0.20-beta-22605",
+        "System.Runtime.Extensions": "4.0.10-beta-22605",
+        "System.Runtime.InteropServices": "4.0.20-beta-22605",
+        "System.Security.Claims": "4.0.0-beta-22605",
+        "System.Security.Principal": "4.0.0-beta-22605",
+        "System.Threading.Tasks": "4.0.10-beta-22605"
       }
     }
   }
