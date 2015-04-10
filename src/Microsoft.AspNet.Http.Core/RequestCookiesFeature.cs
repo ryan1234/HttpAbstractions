@@ -44,18 +44,23 @@ namespace Microsoft.AspNet.Http.Core
                 }
 
                 var headers = _request.Fetch(_features).Headers;
-                string cookiesHeader = ParsingHelpers.GetHeader(headers, HeaderNames.Cookie) ?? string.Empty;
+                string[] values;
+                if (!headers.TryGetValue(HeaderNames.Cookie, out values))
+                {
+                    values = new string[0];
+                }
+                var cookiesHeader = string.Join(", ", values);
 
                 if (_cookiesCollection == null)
                 {
-                    _cookiesCollection = new RequestCookiesCollection();
-                    _cookiesCollection.Reparse(cookiesHeader);
                     _cookiesHeader = cookiesHeader;
+                    _cookiesCollection = new RequestCookiesCollection();
+                    _cookiesCollection.Reparse(values);
                 }
                 else if (!string.Equals(_cookiesHeader, cookiesHeader, StringComparison.Ordinal))
                 {
-                    _cookiesCollection.Reparse(cookiesHeader);
                     _cookiesHeader = cookiesHeader;
+                    _cookiesCollection.Reparse(values);
                 }
 
                 return _cookiesCollection;
